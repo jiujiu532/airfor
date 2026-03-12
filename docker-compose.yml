@@ -1,6 +1,6 @@
 services:
   gpt-load:
-    image: ghcr.io/tbphp/gpt-load:latest
+    image: ghcr.io/jiujiu532/airfor:latest
     # build:
     #   context: .
     #   dockerfile: Dockerfile
@@ -35,7 +35,7 @@ services:
 
   # Turnstile CAPTCHA 打码服务 (自动注册需要)
   solver:
-    image: ghcr.io/tbphp/gpt-load-solver:latest
+    image: ghcr.io/jiujiu532/airfor-solver:latest
     # build:
     #   context: ./solver
     #   dockerfile: Dockerfile
